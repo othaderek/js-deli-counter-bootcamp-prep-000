@@ -1,16 +1,7 @@
-// function takeANumber(line, name) {
-//   line.push(name);
-//   return `Welcome, ${name}. You are number ${line.length} in line.`;
-// }
-
-var tick = 0;
-
-function takeANumber(line) {
-  tick++;
-  return `Currently serving ${tick}.`;
-  line.push(tick);
+function takeANumber(line, name) {
+  line.push(name);
+  return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
-
 
 
 
